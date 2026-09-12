@@ -1,0 +1,3 @@
+pathway,complete_common_cases,icc_a1,icc_ci_lower,icc_ci_upper,mean_pairwise_absolute_difference_deg,median_pairwise_absolute_difference_deg
+Human-centroid spline,498,0.9165112299722431,0.8977066135143735,0.9336831503938785,2.6355421686746987,2.1666666666666665
+Traditional manual Cobb,498,0.8665733115199016,0.8406794531491423,0.8859517865816627,3.3751673360107097,3.1666666666666665

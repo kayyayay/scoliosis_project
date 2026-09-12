@@ -1,0 +1,17 @@
+comparison_type,method,source_a,source_b,threshold,images_with_either_source,images_with_both_sources,curves_source_a,curves_source_b,matched_pairs,symmetric_curve_coverage,mean_matched_iou
+human-human,Spline from human centroids,Carl,Peter,0.5,543,534,1095,1086,956,0.8766620816139385,0.8294278710596703
+human-human,Traditional manual Cobb,Carl,Peter,0.5,543,532,964,952,868,0.906054279749478,0.8249172102858738
+human-human,Spline from human centroids,Carl,Marlene,0.5,543,517,1095,1042,909,0.8507253158633599,0.8068118106071901
+human-human,Traditional manual Cobb,Carl,Marlene,0.5,543,512,964,1010,848,0.8591691995947315,0.7731845918756297
+human-human,Spline from human centroids,Carl,Wadim,0.5,543,528,1095,1078,946,0.8706856879889554,0.8301076683476262
+human-human,Traditional manual Cobb,Carl,Wadim,0.5,543,526,964,1078,890,0.871694417238002,0.812443090617248
+human-human,Spline from human centroids,Peter,Marlene,0.5,542,515,1086,1042,912,0.8571428571428571,0.8178903729068202
+human-human,Traditional manual Cobb,Peter,Marlene,0.5,542,520,952,1010,850,0.8664627930682977,0.7774482217129275
+human-human,Spline from human centroids,Peter,Wadim,0.5,541,527,1086,1078,941,0.8696857670979667,0.823015604657475
+human-human,Traditional manual Cobb,Peter,Wadim,0.5,542,534,952,1078,869,0.8561576354679803,0.7879709888628185
+human-human,Spline from human centroids,Marlene,Wadim,0.5,542,509,1042,1078,890,0.839622641509434,0.8058393354460771
+human-human,Traditional manual Cobb,Marlene,Wadim,0.5,542,514,1010,1078,864,0.8275862068965517,0.7549809854497354
+neural-human,Neural-network spline vs human spline,Neural network,Carl,0.5,542,520,1038,1095,946,0.8870135958743554,0.8729790734283335
+neural-human,Neural-network spline vs human spline,Neural network,Peter,0.5,542,517,1038,1086,937,0.8822975517890772,0.8562024421682907
+neural-human,Neural-network spline vs human spline,Neural network,Marlene,0.5,542,500,1038,1042,879,0.8451923076923077,0.8326415115664263
+neural-human,Neural-network spline vs human spline,Neural network,Wadim,0.5,540,513,1038,1078,922,0.8714555765595463,0.8626740757434901

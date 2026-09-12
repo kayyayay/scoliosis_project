@@ -1,0 +1,10 @@
+comparison_type,method,threshold,matched_pairs,symmetric_curve_coverage,mean_pair_level_iou
+human-human,Spline from human centroids,0.3,5733,0.8886305510346431,0.8058355665498523
+human-human,Traditional manual Cobb,0.3,5379,0.8956043956043956,0.7749685123081665
+neural-human,Neural-network spline vs human spline,0.3,3760,0.8896249852123507,0.8471350782786954
+human-human,Spline from human centroids,0.5,5554,0.8608850654886461,0.8190813013058242
+human-human,Traditional manual Cobb,0.5,5189,0.863969363969364,0.7887154311609891
+neural-human,Neural-network spline vs human spline,0.5,3684,0.8716432035963563,0.8565084903032786
+human-human,Spline from human centroids,0.7,4273,0.6623265907153375,0.883397118132667
+human-human,Traditional manual Cobb,0.7,3739,0.6225441225441225,0.8606112996391145
+neural-human,Neural-network spline vs human spline,0.7,3086,0.7301549745652431,0.9052504653120338

@@ -1,0 +1,556 @@
+{
+  "curve_matching": {
+    "primary_threshold": 0.5,
+    "sensitivity_thresholds": [
+      0.3,
+      0.5,
+      0.7
+    ],
+    "pair_summary": [
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Carl",
+        "source_b": "Peter",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 534,
+        "curves_source_a": 1095,
+        "curves_source_b": 1086,
+        "matched_pairs": 956,
+        "symmetric_curve_coverage": 0.8766620816139385,
+        "mean_matched_iou": 0.8294278710596703
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Carl",
+        "source_b": "Peter",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 532,
+        "curves_source_a": 964,
+        "curves_source_b": 952,
+        "matched_pairs": 868,
+        "symmetric_curve_coverage": 0.906054279749478,
+        "mean_matched_iou": 0.8249172102858738
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Carl",
+        "source_b": "Marlene",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 517,
+        "curves_source_a": 1095,
+        "curves_source_b": 1042,
+        "matched_pairs": 909,
+        "symmetric_curve_coverage": 0.8507253158633599,
+        "mean_matched_iou": 0.8068118106071901
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Carl",
+        "source_b": "Marlene",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 512,
+        "curves_source_a": 964,
+        "curves_source_b": 1010,
+        "matched_pairs": 848,
+        "symmetric_curve_coverage": 0.8591691995947315,
+        "mean_matched_iou": 0.7731845918756297
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Carl",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 528,
+        "curves_source_a": 1095,
+        "curves_source_b": 1078,
+        "matched_pairs": 946,
+        "symmetric_curve_coverage": 0.8706856879889554,
+        "mean_matched_iou": 0.8301076683476262
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Carl",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 543,
+        "images_with_both_sources": 526,
+        "curves_source_a": 964,
+        "curves_source_b": 1078,
+        "matched_pairs": 890,
+        "symmetric_curve_coverage": 0.871694417238002,
+        "mean_matched_iou": 0.812443090617248
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Peter",
+        "source_b": "Marlene",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 515,
+        "curves_source_a": 1086,
+        "curves_source_b": 1042,
+        "matched_pairs": 912,
+        "symmetric_curve_coverage": 0.8571428571428571,
+        "mean_matched_iou": 0.8178903729068202
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Peter",
+        "source_b": "Marlene",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 520,
+        "curves_source_a": 952,
+        "curves_source_b": 1010,
+        "matched_pairs": 850,
+        "symmetric_curve_coverage": 0.8664627930682977,
+        "mean_matched_iou": 0.7774482217129275
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Peter",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 541,
+        "images_with_both_sources": 527,
+        "curves_source_a": 1086,
+        "curves_source_b": 1078,
+        "matched_pairs": 941,
+        "symmetric_curve_coverage": 0.8696857670979667,
+        "mean_matched_iou": 0.823015604657475
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Peter",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 534,
+        "curves_source_a": 952,
+        "curves_source_b": 1078,
+        "matched_pairs": 869,
+        "symmetric_curve_coverage": 0.8561576354679803,
+        "mean_matched_iou": 0.7879709888628185
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "source_a": "Marlene",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 509,
+        "curves_source_a": 1042,
+        "curves_source_b": 1078,
+        "matched_pairs": 890,
+        "symmetric_curve_coverage": 0.839622641509434,
+        "mean_matched_iou": 0.8058393354460771
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "source_a": "Marlene",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 514,
+        "curves_source_a": 1010,
+        "curves_source_b": 1078,
+        "matched_pairs": 864,
+        "symmetric_curve_coverage": 0.8275862068965517,
+        "mean_matched_iou": 0.7549809854497354
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "source_a": "Neural network",
+        "source_b": "Carl",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 520,
+        "curves_source_a": 1038,
+        "curves_source_b": 1095,
+        "matched_pairs": 946,
+        "symmetric_curve_coverage": 0.8870135958743554,
+        "mean_matched_iou": 0.8729790734283335
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "source_a": "Neural network",
+        "source_b": "Peter",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 517,
+        "curves_source_a": 1038,
+        "curves_source_b": 1086,
+        "matched_pairs": 937,
+        "symmetric_curve_coverage": 0.8822975517890772,
+        "mean_matched_iou": 0.8562024421682907
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "source_a": "Neural network",
+        "source_b": "Marlene",
+        "threshold": 0.5,
+        "images_with_either_source": 542,
+        "images_with_both_sources": 500,
+        "curves_source_a": 1038,
+        "curves_source_b": 1042,
+        "matched_pairs": 879,
+        "symmetric_curve_coverage": 0.8451923076923077,
+        "mean_matched_iou": 0.8326415115664263
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "source_a": "Neural network",
+        "source_b": "Wadim",
+        "threshold": 0.5,
+        "images_with_either_source": 540,
+        "images_with_both_sources": 513,
+        "curves_source_a": 1038,
+        "curves_source_b": 1078,
+        "matched_pairs": 922,
+        "symmetric_curve_coverage": 0.8714555765595463,
+        "mean_matched_iou": 0.8626740757434901
+      }
+    ],
+    "sensitivity": [
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "threshold": 0.3,
+        "matched_pairs": 5733,
+        "symmetric_curve_coverage": 0.8886305510346431,
+        "mean_pair_level_iou": 0.8058355665498523
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "threshold": 0.3,
+        "matched_pairs": 5379,
+        "symmetric_curve_coverage": 0.8956043956043956,
+        "mean_pair_level_iou": 0.7749685123081665
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "threshold": 0.3,
+        "matched_pairs": 3760,
+        "symmetric_curve_coverage": 0.8896249852123507,
+        "mean_pair_level_iou": 0.8471350782786954
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "threshold": 0.5,
+        "matched_pairs": 5554,
+        "symmetric_curve_coverage": 0.8608850654886461,
+        "mean_pair_level_iou": 0.8190813013058242
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "threshold": 0.5,
+        "matched_pairs": 5189,
+        "symmetric_curve_coverage": 0.863969363969364,
+        "mean_pair_level_iou": 0.7887154311609891
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "threshold": 0.5,
+        "matched_pairs": 3684,
+        "symmetric_curve_coverage": 0.8716432035963563,
+        "mean_pair_level_iou": 0.8565084903032786
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Spline from human centroids",
+        "threshold": 0.7,
+        "matched_pairs": 4273,
+        "symmetric_curve_coverage": 0.6623265907153375,
+        "mean_pair_level_iou": 0.883397118132667
+      },
+      {
+        "comparison_type": "human-human",
+        "method": "Traditional manual Cobb",
+        "threshold": 0.7,
+        "matched_pairs": 3739,
+        "symmetric_curve_coverage": 0.6225441225441225,
+        "mean_pair_level_iou": 0.8606112996391145
+      },
+      {
+        "comparison_type": "neural-human",
+        "method": "Neural-network spline vs human spline",
+        "threshold": 0.7,
+        "matched_pairs": 3086,
+        "symmetric_curve_coverage": 0.7301549745652431,
+        "mean_pair_level_iou": 0.9052504653120338
+      }
+    ]
+  },
+  "human_maximum_angle_reliability": [
+    {
+      "pathway": "Human-centroid spline",
+      "complete_common_cases": 498,
+      "icc_a1": 0.9165112299722431,
+      "icc_ci_lower": 0.8977066135143735,
+      "icc_ci_upper": 0.9336831503938785,
+      "mean_pairwise_absolute_difference_deg": 2.6355421686746987,
+      "median_pairwise_absolute_difference_deg": 2.1666666666666665
+    },
+    {
+      "pathway": "Traditional manual Cobb",
+      "complete_common_cases": 498,
+      "icc_a1": 0.8665733115199016,
+      "icc_ci_lower": 0.8406794531491423,
+      "icc_ci_upper": 0.8859517865816627,
+      "mean_pairwise_absolute_difference_deg": 3.3751673360107097,
+      "median_pairwise_absolute_difference_deg": 3.1666666666666665
+    }
+  ],
+  "human_pathway_comparison": {
+    "complete_common_cases": 498,
+    "mean_manual_minus_spline_disagreement_deg": 0.7396251673360107,
+    "bootstrap_ci_lower_deg": 0.5391482597054886,
+    "bootstrap_ci_upper_deg": 0.9374497991967871,
+    "percent_images_with_lower_spline_disagreement": 63.65461847389559,
+    "wilcoxon_statistic": 35378.5,
+    "wilcoxon_p_value": 8.643102368062097e-14
+  },
+  "human_matched_curve_agreement": [
+    {
+      "method": "Spline from human centroids",
+      "n": 5554,
+      "mae_deg": 2.4227583723442563,
+      "median_absolute_difference_deg": 2.0,
+      "rmse_deg": 3.2769203069155353,
+      "bias_deg": -0.09254591285559957,
+      "difference_sd_deg": 3.2759081452726484,
+      "loa_lower_deg": -6.51332587758999,
+      "loa_upper_deg": 6.328234051878791,
+      "within_3_deg_percent": 76.48541591645662,
+      "within_5_deg_percent": 91.80770615772417,
+      "pearson_r": 0.9385628736503581,
+      "spearman_rho": 0.9228146659372218,
+      "ccc": 0.9384767195694932,
+      "mae_cluster_bootstrap_ci_lower_deg": 2.325536177223888,
+      "mae_cluster_bootstrap_ci_upper_deg": 2.5125162828204424
+    },
+    {
+      "method": "Traditional manual Cobb",
+      "n": 5189,
+      "mae_deg": 3.388706879938331,
+      "median_absolute_difference_deg": 3.0,
+      "rmse_deg": 4.371282799891965,
+      "bias_deg": 0.9924841009828483,
+      "difference_sd_deg": 4.257532371770386,
+      "loa_lower_deg": -7.352279347687109,
+      "loa_upper_deg": 9.337247549652805,
+      "within_3_deg_percent": 60.31990749662748,
+      "within_5_deg_percent": 80.74773559452689,
+      "pearson_r": 0.8832792482767883,
+      "spearman_rho": 0.8577475899693734,
+      "ccc": 0.8770399766352793,
+      "mae_cluster_bootstrap_ci_lower_deg": 3.2745365856047703,
+      "mae_cluster_bootstrap_ci_upper_deg": 3.5111262592464074
+    }
+  ],
+  "neural_network": {
+    "consensus": {
+      "n": 485,
+      "mae_deg": 1.6257731958762887,
+      "median_absolute_difference_deg": 1.0,
+      "rmse_deg": 2.8080333948141987,
+      "bias_deg": -0.5865979381443299,
+      "difference_sd_deg": 2.7489152205306664,
+      "loa_lower_deg": -5.974471770384436,
+      "loa_upper_deg": 4.8012758940957765,
+      "within_3_deg_percent": 90.9278350515464,
+      "within_5_deg_percent": 94.84536082474226,
+      "pearson_r": 0.9527919883899363,
+      "spearman_rho": 0.9459362377813709,
+      "ccc": 0.9500882935355651,
+      "mae_ci_lower_deg": 1.4268041237113402,
+      "mae_ci_upper_deg": 1.8381443298969071,
+      "bias_ci_lower_deg": -0.8175515463917525,
+      "bias_ci_upper_deg": -0.3514690721649488
+    },
+    "endpoint": {
+      "matched_curve_pairs": 3684,
+      "spearman_endpoint_vs_absolute_angle_difference": 0.15454873341217712,
+      "spearman_p_value": 3.946153811100188e-21
+    }
+  },
+  "neural_network_curve_agreement": [
+    {
+      "human_comparison": "All humans",
+      "n": 3684,
+      "mae_deg": 2.043702497285559,
+      "median_absolute_difference_deg": 1.0,
+      "rmse_deg": 3.0811940520035512,
+      "bias_deg": -0.4590119435396308,
+      "difference_sd_deg": 3.0472258431207595,
+      "loa_lower_deg": -6.431574596056319,
+      "loa_upper_deg": 5.513550708977058,
+      "within_3_deg_percent": 84.60912052117264,
+      "within_5_deg_percent": 94.43539630836048,
+      "pearson_r": 0.946934520502335,
+      "spearman_rho": 0.9398284364811086,
+      "ccc": 0.945794507832739
+    },
+    {
+      "human_comparison": "Carl",
+      "n": 946,
+      "mae_deg": 2.0718816067653276,
+      "median_absolute_difference_deg": 2.0,
+      "rmse_deg": 3.0858060100241325,
+      "bias_deg": -0.8372093023255814,
+      "difference_sd_deg": 2.971634904006047,
+      "loa_lower_deg": -6.661613714177433,
+      "loa_upper_deg": 4.9871951095262705,
+      "within_3_deg_percent": 84.6723044397463,
+      "within_5_deg_percent": 94.82029598308668,
+      "pearson_r": 0.9501098114716168,
+      "spearman_rho": 0.945027896852965,
+      "ccc": 0.9463305261469748
+    },
+    {
+      "human_comparison": "Marlene",
+      "n": 879,
+      "mae_deg": 2.1023890784982937,
+      "median_absolute_difference_deg": 1.0,
+      "rmse_deg": 3.2355392824437526,
+      "bias_deg": -0.459613196814562,
+      "difference_sd_deg": 3.204551907113338,
+      "loa_lower_deg": -6.740534934756704,
+      "loa_upper_deg": 5.82130854112758,
+      "within_3_deg_percent": 84.75540386803185,
+      "within_5_deg_percent": 93.28782707622298,
+      "pearson_r": 0.941962494006131,
+      "spearman_rho": 0.9335326419609176,
+      "ccc": 0.9407233938071298
+    },
+    {
+      "human_comparison": "Peter",
+      "n": 937,
+      "mae_deg": 2.0021344717182497,
+      "median_absolute_difference_deg": 2.0,
+      "rmse_deg": 2.973737770669876,
+      "bias_deg": 0.2838847385272145,
+      "difference_sd_deg": 2.961737236283136,
+      "loa_lower_deg": -5.521120244587731,
+      "loa_upper_deg": 6.088889721642161,
+      "within_3_deg_percent": 85.37886872998934,
+      "within_5_deg_percent": 95.30416221985058,
+      "pearson_r": 0.9482930602166005,
+      "spearman_rho": 0.9406607273437773,
+      "ccc": 0.9476522188208671
+    },
+    {
+      "human_comparison": "Wadim",
+      "n": 922,
+      "mae_deg": 2.0010845986984815,
+      "median_absolute_difference_deg": 1.0,
+      "rmse_deg": 3.032542227970645,
+      "bias_deg": -0.8253796095444685,
+      "difference_sd_deg": 2.9196414704736084,
+      "loa_lower_deg": -6.5478768916727415,
+      "loa_upper_deg": 4.8971176725838035,
+      "within_3_deg_percent": 83.62255965292842,
+      "within_5_deg_percent": 94.25162689804772,
+      "pearson_r": 0.9523293860308936,
+      "spearman_rho": 0.94511239068024,
+      "ccc": 0.9483040175060832
+    }
+  ],
+  "endpoint_disagreement": [
+    {
+      "endpoint_disagreement_group": "0",
+      "matched_pairs": 1601,
+      "mean_absolute_angle_difference_deg": 1.6758276077451593,
+      "median_absolute_angle_difference_deg": 1.0,
+      "within_5_deg_percent": 97.43910056214867
+    },
+    {
+      "endpoint_disagreement_group": "1-2",
+      "matched_pairs": 1831,
+      "mean_absolute_angle_difference_deg": 2.0944838885854726,
+      "median_absolute_angle_difference_deg": 2.0,
+      "within_5_deg_percent": 93.93773894046969
+    },
+    {
+      "endpoint_disagreement_group": "3-4",
+      "matched_pairs": 217,
+      "mean_absolute_angle_difference_deg": 3.737327188940092,
+      "median_absolute_angle_difference_deg": 2.0,
+      "within_5_deg_percent": 81.5668202764977
+    },
+    {
+      "endpoint_disagreement_group": "5+",
+      "matched_pairs": 35,
+      "mean_absolute_angle_difference_deg": 5.714285714285714,
+      "median_absolute_angle_difference_deg": 4.0,
+      "within_5_deg_percent": 62.857142857142854
+    }
+  ],
+  "exploratory_models": [
+    {
+      "model": "Training-mean baseline",
+      "grouped_cv_mae_deg": 1.4510985121866495,
+      "grouped_cv_r2": -0.0008279673474158589,
+      "observations": 3684,
+      "unique_images": 522
+    },
+    {
+      "model": "Linear regression",
+      "grouped_cv_mae_deg": 1.4461429281860048,
+      "grouped_cv_r2": 0.09181146769559867,
+      "observations": 3684,
+      "unique_images": 522
+    },
+    {
+      "model": "Random forest",
+      "grouped_cv_mae_deg": 1.4586549826891353,
+      "grouped_cv_r2": 0.12683547141549678,
+      "observations": 3684,
+      "unique_images": 522
+    }
+  ],
+  "exploratory_feature_importance": [
+    {
+      "feature": "mean_angle_deg",
+      "random_forest_importance": 0.4300991867166613
+    },
+    {
+      "feature": "upper_endpoint_difference",
+      "random_forest_importance": 0.3408137550999185
+    },
+    {
+      "feature": "interval_iou",
+      "random_forest_importance": 0.1965756726005391
+    },
+    {
+      "feature": "lower_endpoint_difference",
+      "random_forest_importance": 0.03251138558288104
+    }
+  ]
+}

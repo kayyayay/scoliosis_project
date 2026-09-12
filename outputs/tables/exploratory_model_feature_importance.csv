@@ -1,0 +1,5 @@
+feature,random_forest_importance
+mean_angle_deg,0.4300991867166613
+upper_endpoint_difference,0.3408137550999185
+interval_iou,0.1965756726005391
+lower_endpoint_difference,0.03251138558288104

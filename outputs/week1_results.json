@@ -1,0 +1,71 @@
+{
+  "dataset": {
+    "rows": 543,
+    "measurement_columns": 30,
+    "unique_ids": 543,
+    "duplicate_ids": 0,
+    "rows_with_any_missing_value": 48,
+    "fully_complete_rows": 495,
+    "missing_cells": 303,
+    "missing_cell_percent": 1.86,
+    "rows_complete_for_all_four_humans_both_methods": 511,
+    "rows_with_neural_network_spline": 527
+  },
+  "validation": {
+    "all_ids_eight_alphanumeric": true,
+    "parse_error_count": 0,
+    "length_mismatch_count": 3
+  },
+  "availability": {
+    "Carl": {
+      "available_cases": 541,
+      "missing_cases": 2
+    },
+    "Peter": {
+      "available_cases": 541,
+      "missing_cases": 2
+    },
+    "Marlene": {
+      "available_cases": 521,
+      "missing_cases": 22
+    },
+    "Wadim": {
+      "available_cases": 535,
+      "missing_cases": 8
+    },
+    "Neural network": {
+      "available_cases": 527,
+      "missing_cases": 16
+    }
+  },
+  "angle_summary": {
+    "Human spline": {
+      "curve_records": 4301,
+      "minimum_deg": 10.0,
+      "maximum_deg": 85.0,
+      "mean_deg": 24.81,
+      "median_deg": 24.0,
+      "standard_deviation_deg": 9.48
+    },
+    "Human manual": {
+      "curve_records": 4004,
+      "minimum_deg": 2.0,
+      "maximum_deg": 75.0,
+      "mean_deg": 23.96,
+      "median_deg": 23.0,
+      "standard_deviation_deg": 9.07
+    },
+    "Neural-network spline": {
+      "curve_records": 1038,
+      "minimum_deg": 10.0,
+      "maximum_deg": 81.0,
+      "mean_deg": 24.55,
+      "median_deg": 24.0,
+      "standard_deviation_deg": 9.47
+    }
+  },
+  "neural_network_duplicate_check": {
+    "angle_columns_identical_where_available": true,
+    "vertebra_columns_identical_where_available": true
+  }
+}
